@@ -1,0 +1,82 @@
+.carte {
+  width: 100px;
+  height: 100px;
+}
+
+.cache {
+  display: block;
+  background-color: #aaa;
+}
+
+.image {
+  background-color: white;
+  background-image: url("/images/cards.png");
+  background-repeat: no-repeat;
+}
+/* Ce sont les classes correspondant à chaque fruit) */
+
+.banana {
+  background-position: 0 -100px;
+}
+
+.orange {
+  background-position: 0 -200px;
+}
+.lime {
+  background-position: 0 -300px;
+}
+.fig {
+  background-position: 0 -400px;
+}
+
+.apricot {
+  background-position: 0 -500px;
+}
+
+.lemon {
+  background-position: 0 -600px;
+}
+
+.strawberry {
+  background-position: 0 -700px;
+}
+
+.peach {
+  background-position: 0 -800px;
+}
+
+.grape {
+  background-position: 0 -900px;
+}
+
+.watermellon {
+  background-position: 0 -1000px;
+}
+
+.plum {
+  background-position: 0 -1100px;
+}
+
+.pear {
+  background-position: 0 -1200px;
+}
+
+.cherry {
+  background-position: 0 -1300px;
+}
+
+.raspberry {
+  background-position: 0 -1400px;
+}
+
+.passionfruit {
+  background-position: 0 -1500px;
+}
+
+.mirabelle {
+  background-position: 0 -1600px;
+}
+
+.carte:hover {
+  background-color: #656262;
+}

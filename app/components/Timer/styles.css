@@ -1,0 +1,12 @@
+.timer {
+  height: 30px;
+  width: 50%;
+  border: 2px solid black;
+  margin: auto;
+}
+
+.loader {
+  background-color: red;
+  /* width: 1.67%; */
+  height: 100%;
+}

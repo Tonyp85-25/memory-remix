@@ -3,12 +3,12 @@
   height: 100px;
 }
 
-.cache {
+.hidden {
   display: block;
   background-color: #aaa;
 }
 
-.image {
+.turned {
   background-color: white;
   background-image: url("/images/cards.png");
   background-repeat: no-repeat;

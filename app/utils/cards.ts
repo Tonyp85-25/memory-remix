@@ -38,6 +38,7 @@ export interface ICard {
   readonly fruit: FruitType[number];
   playable: boolean;
   status: CardStatus;
+  style: string;
 }
 
 export const getCards = (difficulty: DifficultyType) => {
@@ -50,6 +51,7 @@ export const getCards = (difficulty: DifficultyType) => {
       playable: true,
       status: CardStatus.hidden,
       id: "c" + i,
+      style: `carte hidden ${fruits[index]}`,
     });
   }
   return cards;

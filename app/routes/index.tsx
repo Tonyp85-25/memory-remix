@@ -6,9 +6,11 @@ export default function Index() {
       <h1>Welcome to Memory Game</h1>
 
       <p>What difficulty level do you want?</p>
-      <Link to="/game?difficulty=easy">Easy</Link>
+      <nav>
+        <Link to="/game?difficulty=easy">Easy</Link>
 
-      <Link to="/game?difficulty=hard">Hard</Link>
+        <Link to="/game?difficulty=hard">Hard</Link>
+      </nav>
     </div>
   );
 }
